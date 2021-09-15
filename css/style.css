@@ -1,0 +1,176 @@
+body {
+  background: #f2f2f2;
+}
+
+
+.logo-container {
+  /* flex: 100%; */
+  background: white;
+}
+
+.img-container {
+  
+  max-height: 30vh;
+  max-width: 245px;
+  width: 60%;
+  margin: 0 20%;
+  
+  
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  flex: 30%;
+  
+}
+
+.menu-container {
+  display: flex;
+  justify-content: space-around;
+
+  width: 100%;
+  height: 7vh;
+  align-items: center;
+  background: black;
+}
+
+button {
+  font-weight: 500;
+  border-radius: 4px;
+}
+
+div.btn_form_div {
+  display: flex;
+}
+
+button.btn-form {
+  margin: 5vh auto 0 auto;
+}
+
+form {
+  text-align: center;
+  margin: 5vh auto;
+  border: solid 2px #979797;
+  border-radius: 16px;
+  width: 80vw;
+  padding: 1rem 0;
+  background: /* #e3e3e3 */ black;
+  color: #f2f2f2;
+  font-weight: bold;
+  max-width: 375px;
+  
+}
+
+form input {
+  margin: 1vh auto;
+  border-radius: 4px;
+  width: 70%;
+}
+
+input.btn-submit {
+  margin: 2vh auto;
+  width: 40%;
+}
+
+.div-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+}
+
+.card-final {
+  width: 60vw;
+  height: 40vh;
+  text-align: center;
+  border: 2px solid #979797;
+  border-radius: 20px;
+  padding: 1rem;
+  color: #f2f2f2;
+  font-weight: bold;
+  background: black;
+  margin: 2vh;
+  max-width: 230px;
+  /* margin: auto; */
+}
+
+.img {
+  width: 100%;
+  height: 50%;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+
+
+/* style teams page */
+
+.team_article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 80vw;
+  margin: 0 auto;
+}
+
+.member_div {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70vw;
+  max-width: 300px;
+  margin-top: 2vh;
+  background-color: white;
+  padding: 15px;
+  border: 2px solid black;
+  border-radius: 8px;
+  background: black;
+  margin: 2rem auto;
+  
+}
+
+.member_div h1 {
+  color: #f2f2f2;
+  font-weight: bold;
+  margin: 4vh 0;
+}
+
+.member_div a {
+  margin: 0 2vw;
+}
+
+.member_img {
+  height: 100px;
+  width: 100px;
+  border-radius: 100%;
+  border: 5px solid #f2f2f2;
+}
+
+
+/* contact page style */
+
+.contact_container {
+  margin: 2vh auto;
+  display: flex;
+  justify-content: center;
+  max-width: 80vw;
+}
+
+
+
+
+
+@media (min-width: 575px) {
+  .div-card-container {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 780px) {
+  .team_article {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
